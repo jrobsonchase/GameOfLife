@@ -1,0 +1,15 @@
+Name:GameOfLife
+Version:1.0
+Cabal-Version:  >= 1.2
+License:GPL
+License-File:LICENSE
+Author:Josh Chase
+Homepage:http://techpursuit.net
+Category:Testing
+Synopsis:The Game of Life
+Build-type: Simple
+
+Executable GameOfLifeSDL
+  Build-Depends: base,SDL,mtl,process
+  Main-Is:        GameOfLifeSDL.hs
+  Hs-Source-Dirs: src
